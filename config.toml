@@ -1,12 +1,10 @@
 ##########################################
 # 站点配置
 
-baseURL = "https://example.com/"
-title = "Hugo 主题 MemE"
-languageCode = "zh-CN"
+baseURL = "https://blog-yaoyiw27s-projects.vercel.app/"
+title = "Caeruleum"
+languageCode = "en-us"
 hasCJKLanguage = true
-# 版权信息（支持 Markdown）
-copyright = "[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)"
 
 # 主题选择
 theme = "meme"
@@ -15,7 +13,7 @@ theme = "meme"
 newContentEditor = ""
 
 # i18n
-defaultContentLanguage = "zh"
+defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = false
 
 # 是否复数化列表页面的标题
@@ -96,17 +94,15 @@ uglyURLs = false
 # 作者信息
 [author]
     # 名字
-    name = "reuixiy"
+    name = "Yaoyi"
     # 邮箱
-    email = "reuixiy@gmail.com"
+    email = "rmwyyy@gmail.com"
     # 座右铭或简介
     motto = "Viva La Vida"
     # 头像
     avatar = "/icons/apple-touch-icon.png"
     # 网站（默认值：baseURL）
-    website = "https://io-oi.me/"
-    # 推特
-    twitter = "reuixiy"
+    website = "https://yaoyi.vercel.app/"
 
 # 相关文章
 [related]
@@ -191,34 +187,30 @@ uglyURLs = false
     ## 菜单栏
     # [[menu.main]]
     #     pageref = "/"
-    #     name = "首页"
+    #     name = "Home"
     #     weight = 1
     #     pre = "internal"
     #     post = "home"
     [[menu.main]]
-        pageref = "/posts/"
-        name = "文章"
+        name = "Home"
+        url = "/home"
         weight = 2
-        pre = "internal"
-        post = "archive"
+
     [[menu.main]]
-        pageref = "/categories/"
-        name = "分类"
+        name = "Room"
+        url = "/room"
         weight = 3
-        pre = "internal"
-        post = "th"
+
     [[menu.main]]
-        pageref = "/tags/"
-        name = "标签"
+        name = "Tech"
+        url = "/tech"
         weight = 4
-        pre = "internal"
-        post = "tags"
+
     [[menu.main]]
-        pageref = "/about/"
-        name = "关于"
+        name = "About"
+        url = "/about"
         weight = 5
-        pre = "internal"
-        post = "user-circle"
+
     [[menu.main]]
         weight = 6
         identifier = "theme-switcher"
@@ -261,7 +253,7 @@ uglyURLs = false
     # 在窄视图下隐藏菜单栏并显示一个按钮？
     enableNavToggle = true
 
-    navHeight = "10em"
+    navHeight = "20em"
     # 说明：菜单栏展开时的高度
 
 
@@ -348,12 +340,8 @@ uglyURLs = false
     #      Open Graph、Atom、RSS
 
     # 站点的创建时间
-    siteCreatedTime = "1969-07-20T20:17:43+00:00"
+    siteCreatedTime = "2024-02-02"
     # 注意：请保持此格式，更改数字
-
-    # 站点的推特帐号
-    siteTwitter = "reuixiy"
-    # 说明：用于 Twitter Cards
 
 
     ######################################
@@ -429,7 +417,7 @@ uglyURLs = false
     # 注意：请遵循格式 https://gohugo.io/functions/format/
 
     # 日期的位置
-    listDatePosition = "right"
+    listDatePosition = "left"
     # 说明：left（左边）或 right（右边）
 
     # 是否按月份分隔列表
@@ -491,7 +479,7 @@ uglyURLs = false
     # 深色模式
 
     # 是否开启
-    enableDarkMode = true
+    enableDarkMode = false
 
     # 默认模式
     defaultTheme = "light"
@@ -770,7 +758,7 @@ uglyURLs = false
     duration = 0.5
 
     # 浅色模式的主色
-    primaryColorLight = "220, 90%, 56%"
+    primaryColorLight = "45, 2%, 34%"
     # 深色模式的主色
     primaryColorDark = "201, 65%, 62%"
     # 注意：只支持 HSL 颜色值
@@ -998,7 +986,7 @@ uglyURLs = false
     # 文章标题、文章副标题、列表标题、列表的年份和月份标题、相关文章标题、文章上下篇标题、表格的表头、定义列表中的术语
     fontFamilyTitle = "'Noto Serif SC', 'EB Garamond', serif"
     # 分节标题、目录标题
-    fontFamilyHeadings = "'Noto Serif SC', 'EB Garamond', serif"
+    fontFamilyHeadings = "'Raleway', 'EB Garamond', serif"
     # 代码、上标、文章元信息、文章更新徽章、文章的 Git 版本信息、极简页脚、不蒜子站点浏览计数
     fontFamilyCode = "'Source Code Pro', 'Noto Serif SC', monospace"
     # 引用
@@ -1179,14 +1167,14 @@ uglyURLs = false
     # 文章分享
 
     # 是否开启
-    enablePostShare = true
+    enablePostShare = false
 
     # 是否显示（全局设置）
     displayPostShare = true
     # 说明：文章的 Front Matter 中的 `share`
     #      的优先级高于此处
 
-    displayShareOnText = false
+    displayShareOnText = true
 
     postShareItems = ["facebook", "mastodon", "fediverse", "twitter", "linkedin", "telegram", "weibo", "douban", "qq", "qzone", "pocket", "hackernews", "qrcode", "email"]
 
@@ -1295,11 +1283,11 @@ uglyURLs = false
     displaySiteCreatedYear = true
 
     # 年份与作者之间的图标，留空（""）则无
-    iconBetweenYearAndAuthor = "heart"
+    iconBetweenYearAndAuthor = ""
     # 图标颜色
     iconColor = "#f06292"
     # 是否开启图标的跳动效果
-    iconAnimation = true
+    iconAnimation = false
 
     # 是否显示站点的作者名称
     displaySiteAuthorName = true
@@ -1323,7 +1311,7 @@ uglyURLs = false
     #      https://busuanzi.ibruce.info/
 
     # 社交链接
-    enableSocials = true
+    enableSocials = false
     # 说明：见 data/Socials.toml
 
 
