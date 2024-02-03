@@ -2,10 +2,10 @@
     position: absolute;
     bottom: 0;
     width: 100%;
-    font-size: 90%;
-    color: alpha(var(--color-contrast-medium), 0.8);
+    font-size: 120%;
+    color: alpha(var(--color-contrast-medium), 1);
     a {
-        color: alpha(var(--color-contrast-medium), 0.8);
+        color: alpha(var(--color-contrast-medium), 1);
         &:hover {
             color: var(--color-primary);
         }
@@ -13,12 +13,12 @@
 }
 
 .footer-inner {
-    padding: 1em;
-    text-align: center;
+    padding: 1.5em;
+    text-align: right;
 }
 
 .footer-icon {
-    margin: 0 0.25em 0.3em;
+    margin: 0 0.3em 0.3em;
 }
 
 @if variable-exists("iconColor") {

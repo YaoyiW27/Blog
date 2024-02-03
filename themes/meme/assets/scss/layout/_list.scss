@@ -13,7 +13,7 @@
     }
 }
 
-@if ($listDatePosition == "right") {
+@if ($listDatePosition == "center") {
     .list-item-title {
         flex: 1;
     }

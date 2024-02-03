@@ -1,4 +1,4 @@
-{{ with .Site.Params.fontSize | default 16 }}
+{{ with .Site.Params.fontSize | default 18 }}
     $fontSize: {{ . }}px;
 {{ end }}
 {{ with .Site.Params.tabSize | default 4 }}
@@ -144,7 +144,7 @@ $baseRelURL: "{{ "" | relURL | strings.TrimSuffix "/" }}";
 
     // Magic adjustment for zh-cn
     .drop-cap {
-        margin-top: 1rem !important;
+        margin-top: 2rem !important;
     }
 {{ end }}
 

@@ -2,7 +2,7 @@
 # 站点配置
 
 baseURL = "https://blog-yaoyiw27s-projects.vercel.app/"
-title = "Caeruleum"
+title = "Caeruleum | 任我行"
 languageCode = "en-us"
 hasCJKLanguage = true
 
@@ -194,29 +194,25 @@ uglyURLs = false
     [[menu.main]]
         name = "Home"
         url = "/home"
-        weight = 2
-
-    [[menu.main]]
-        name = "Room"
-        url = "/room"
-        weight = 3
+        weight = 1
 
     [[menu.main]]
         name = "Tech"
         url = "/tech"
+        weight = 2
+
+    [[menu.main]]
+        name = "Tags"
+        url = "/tags"
+        weight = 3
+
+    [[menu.main]]
         weight = 4
-
-    [[menu.main]]
-        name = "About"
-        url = "/about"
-        weight = 5
-
-    [[menu.main]]
-        weight = 6
         identifier = "theme-switcher"
     [[menu.main]]
-        weight = 7
+        weight = 5
         identifier = "lang-switcher"
+
     # [[menu.main]]
     #     weight = 8
     #     identifier = "search"
@@ -301,18 +297,26 @@ uglyURLs = false
     # 3. posts     文章摘要
     # 4. page      普通页面
 
-    homeLayout = "posts"
+    homeLayout = "poetry"
 
     ## 「诗意人生」
     # 诗句，支持 Markdown
-    homePoetry = []
+    homePoetry = [
+
+        '{{< audio mp3="/audio/audio.mp3" >}}',
+
+        "Caeruleum",
+
+    ]
+
+    
     # 底部链接的内间距，单位：em
-    homeLinksPadding = 1
+    homeLinksPadding = 3
 
     ## 「视频片段」
     homePoster = ""
     homeVideoWebm = ""
-    homeVideoMp4 = ""
+    homeVideoMp4 = "/audio.mp3"
     homeLogo = ""
     homeLogoLink = ""
     homeTitle = ""
@@ -320,6 +324,7 @@ uglyURLs = false
     homeDescription = ""
     homeKeywords = ""
     homeLinksDelimiter = ""
+
 
     ## 「文章摘要」
     enableHideInHomepage = false
@@ -335,7 +340,7 @@ uglyURLs = false
     # 说明：用于 JSON-LD、Open Graph
 
     # 站点的描述
-    siteDescription = "MemE 是一个强大且可高度定制的 GoHugo 博客主题，专为个人博客设计。"
+    siteDescription = "Practice coding."
     # 说明：用于 HTML 的头部元数据、JSON-LD、
     #      Open Graph、Atom、RSS
 
@@ -479,7 +484,7 @@ uglyURLs = false
     # 深色模式
 
     # 是否开启
-    enableDarkMode = false
+    enableDarkMode = true
 
     # 默认模式
     defaultTheme = "light"
@@ -916,10 +921,10 @@ uglyURLs = false
     #      (~/blog/static/images/meme.jpg)
 
     # 是否开启
-    enableImageHost = false
+    enableImageHost = true
 
     # 图片外链地址
-    imageHostURL = "https://example.com/"
+    imageHostURL = ""
 
     # 是否将 HTML 的头部元数据中的图片链接也替换为外链
     headAlso = false
@@ -937,10 +942,10 @@ uglyURLs = false
     #      `<video src="`
 
     # 是否开启
-    enableVideoHost = false
+    enableVideoHost = true
 
     # 视频外链地址
-    videoHostURL = "https://example.com/"
+    videoHostURL = "/audio/audio.mp3"
 
 
     ######################################
@@ -980,15 +985,15 @@ uglyURLs = false
     #      SVG，则可留空（""）品牌栏字体。
 
     # 品牌栏
-    fontFamilySiteBrand = ""
+    fontFamilySiteBrand = "'Cinzel Decorative', 'EB Garamond', cursive" 
     # 菜单栏
-    fontFamilyMenu = ""
+    fontFamilyMenu = "'Cinzel Decorative', 'Noto Serif SC', serif"
     # 文章标题、文章副标题、列表标题、列表的年份和月份标题、相关文章标题、文章上下篇标题、表格的表头、定义列表中的术语
     fontFamilyTitle = "'Noto Serif SC', 'EB Garamond', serif"
     # 分节标题、目录标题
     fontFamilyHeadings = "'Raleway', 'EB Garamond', serif"
     # 代码、上标、文章元信息、文章更新徽章、文章的 Git 版本信息、极简页脚、不蒜子站点浏览计数
-    fontFamilyCode = "'Source Code Pro', 'Noto Serif SC', monospace"
+    fontFamilyCode = "'Courier Prime', 'Fira Mono', 'Source Code Pro', 'glyph-correction', Consolas, 'Noto Serif SC', monospace"
     # 引用
     fontFamilyQuote = ""
     # 文章目录
