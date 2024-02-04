@@ -1,3 +1,3 @@
 # Personal blog
 
-## Record of daily life & leanring process
+## Records of daily life & leanring process
