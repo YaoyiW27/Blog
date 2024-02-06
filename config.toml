@@ -302,10 +302,17 @@ uglyURLs = false
     ## 「诗意人生」
     # 诗句，支持 Markdown
     homePoetry = [
+        "A Room of One's Own",
 
         '{{< audio mp3="/audio/audio.mp3" >}}',
 
-        "Caeruleum",
+        "*Caeruleum* is Latin word for sky blue, *任我行* means courage, free will, and the pursuit of happiness.",
+
+        "I think I still need to record something, no matter how much or how little, I should write it down.", 
+        "Write for the memories of yesterday, write for the stories of today, and write for the self of tomorrow.", 
+        "By writing it down, it becomes a piece of contemplation.",
+
+        "Welcome come > < 欢迎您也喜欢我  : )"
 
     ]
 
@@ -418,7 +425,7 @@ uglyURLs = false
     displayListTitle = true
 
     # 日期的格式
-    listDateFormat = "1 月 2 日"
+    listDateFormat = "January 2"
     # 注意：请遵循格式 https://gohugo.io/functions/format/
 
     # 日期的位置
@@ -987,15 +994,15 @@ uglyURLs = false
     # 品牌栏
     fontFamilySiteBrand = "'Cinzel Decorative', 'EB Garamond', cursive" 
     # 菜单栏
-    fontFamilyMenu = "'Cinzel Decorative', 'Noto Serif SC', serif"
+    fontFamilyMenu = "'Varela Round', sans-serif"
     # 文章标题、文章副标题、列表标题、列表的年份和月份标题、相关文章标题、文章上下篇标题、表格的表头、定义列表中的术语
-    fontFamilyTitle = "'Noto Serif SC', 'EB Garamond', serif"
+    fontFamilyTitle = "'Varela Round', sans-serif"
     # 分节标题、目录标题
-    fontFamilyHeadings = "'Raleway', 'EB Garamond', serif"
+    fontFamilyHeadings = "'Varela Round', sans-serif"
     # 代码、上标、文章元信息、文章更新徽章、文章的 Git 版本信息、极简页脚、不蒜子站点浏览计数
     fontFamilyCode = "'Courier Prime', 'Fira Mono', 'Source Code Pro', 'glyph-correction', Consolas, 'Noto Serif SC', monospace"
     # 引用
-    fontFamilyQuote = ""
+    fontFamilyQuote = "'Varela Round', sans-serif"
     # 文章目录
     fontFamilyTOC = ""
     # 说明文字
@@ -1003,10 +1010,11 @@ uglyURLs = false
     # 页脚
     fontFamilyFooter = ""
     # 主体
-    fontFamilyBody = "'EB Garamond', 'Noto Serif SC', serif"
+    fontFamilyBody = "'Varela Round', sans-serif"
 
     # 网络字体链接
-    fontsLink = "https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,700;1,400;1,700&family=Noto+Serif+SC:wght@400;500;700&family=Source+Code+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+    fontsLink = "https://fonts.googleapis.com/css2?family=Varela+Round&display=swap"
+
     # 说明：要想读者一定体验到你设置的字体，最好
     #      采用网络字体。MemE 主题目前仅支持
     #      Google Fonts 的链接，请前往
@@ -1324,13 +1332,13 @@ uglyURLs = false
     # 多语言
 
     # 是否开启多语言按钮
-    enableLangToggle = false
+    enableLangToggle = true
 
     # 是否在首页隐藏多语言按钮
     hideLangToggleInHome = false
 
     # 是否自动隐藏多语言按钮
-    autoHideLangToggle = true
+    autoHideLangToggle = false
     # 说明：即仅当该文章有相应的翻译版本时才显
     #      示按钮
 

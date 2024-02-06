@@ -1,5 +1,5 @@
 .list .main-inner {
-    width: $listWidth;
+    width: 40em;
 }
 
 .list-title {
@@ -10,6 +10,7 @@
     ul {
         list-style: none;
         padding: 0;
+        margin: 0; 
     }
 }
 

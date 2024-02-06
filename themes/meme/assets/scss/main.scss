@@ -144,7 +144,7 @@ $baseRelURL: "{{ "" | relURL | strings.TrimSuffix "/" }}";
 
     // Magic adjustment for zh-cn
     .drop-cap {
-        margin-top: 2rem !important;
+        margin-top: 5rem !important;
     }
 {{ end }}
 

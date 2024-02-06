@@ -26,15 +26,15 @@
     .site-brand {
         margin-right: 1em;
     }
+
 } @else {
     .header {
         position: left;
+        width: 100vw;
         background: $headerBackground;
     }
     .site-brand {
-        text-align: left;
-        width: 100%;
-        font-size: 120%;
+        margin-right: 2em;;
     }
 }
 
@@ -82,7 +82,7 @@ $brandHeight: 2em;
 
 @if ($enableHeaderAutoHide and $headerLayoutFlex) {
     .header {
-        top: 2;
+        top: 3;
         transition: top 0.3s ease-in-out;
     
         &.hide {
