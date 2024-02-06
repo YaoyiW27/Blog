@@ -302,9 +302,12 @@ uglyURLs = false
     ## 「诗意人生」
     # 诗句，支持 Markdown
     homePoetry = [
+        
         "A Room of One's Own",
 
         '{{< audio mp3="/audio/audio.mp3" >}}',
+
+        "Welcome to my blog: )",
 
         "*Caeruleum* is a Latin word for sky blue, *任我行* means courage, free will, and the pursuit of happiness.",
 
@@ -312,7 +315,7 @@ uglyURLs = false
         "Write for the memories of yesterday, write for the stories of today, and write for the self of tomorrow.", 
         "By writing it down, it becomes a piece of contemplation.",
 
-        "Welcome come > < 欢迎您也喜欢我  : )"
+        "欢迎您来 : )"
 
     ]
 
