@@ -11,7 +11,7 @@ draft: false
 
 "Do not give up on experiencing and reflecting on that thing you bet on. If you want to understand the source of your beliefs about it and whether it's still a gamble. Even though your attitude may change throughout this process, truth, goodness, beauty, freedom, and love, in my eyes, are all things worth betting on, worth reflecting on, and worth pursuing."
 
-                                                          ————荆豆地
+                                        ————荆豆地
 
 
 
