@@ -1,5 +1,5 @@
 ---
-title: "Work"
+title: "Work Section"
 date: 2024-02-21T20:00:26-08:00
 draft: false
 ---
