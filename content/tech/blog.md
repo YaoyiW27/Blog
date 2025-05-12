@@ -2,6 +2,7 @@
 title: "Why I chose Hugo as the framework for blog?"
 date: 2024-02-03T01:42:03-08:00
 draft: false
+tags: ["Hugo", "Blog", "Static Site Generator"]
 ---
 
 ### Dynamic Blog or Static Blog

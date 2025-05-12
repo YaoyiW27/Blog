@@ -2,6 +2,7 @@
 title: "CS61B"
 date: 2024-02-21T20:00:26-08:00
 draft: false
+tags: ["Java", "Data Structures", "Algorithms", "CS61B"]
 ---
 
 ## Notes
@@ -15,13 +16,15 @@ In contrast, **Python** is a *dynamically typed* language, which means that the 
 In Java, there are two kinds of types: primitive types and reference types. 
 **Primitive types** are lowercase, and we named these: `boolean`, `int`, `char`, `double`. Pretty much every other type is a **reference type**, such as `String`. If a type starts with a capital letter, it is likely a reference type. 
 
-Each primitive has a corresponding reference type (`Boolean`, `Integer`, `Character`, `Double`). **If you are using “generics” to declare a data structure, you must use the reference type.** You can (usually) seamlessly convert between a primitive type and its reference type.
+Each primitive has a corresponding reference type (`Boolean`, `Integer`, `Character`, `Double`). **If you are using "generics" to declare a data structure, you must use the reference type.** You can (usually) seamlessly convert between a primitive type and its reference type.
+
+![alt](/images/primitive_types.png)
 
 #### null
 Java also has `null`, which is the approximate equivalent of `None` in Python. Any reference type can be assigned a value of `null`. If we try to access an instance member or call an instance method from a value of `null`, we will see an error called a `NullPointerException`.
 
 #### Arrays (fixed-size)
-Java arrays are a lot like Python lists. However, Java arrays are fixed-size, so we can’t add or remove elements (that is, no `append`, `remove`, etc.).
+Java arrays are a lot like Python lists. However, Java arrays are fixed-size, so we can't add or remove elements (that is, no `append`, `remove`, etc.).
 
 **python:**
 ```python
@@ -42,7 +45,7 @@ System.out.println(Arrays.toString(array));
 System.out.println(array.length);
 ```
 
-- In new `int[3]`, the int is the type in the array; and `3` is the length. With this syntax, all elements take on their “default value”. For `int`, this is 0.
+- In new `int[3]`, the int is the type in the array; and `3` is the length. With this syntax, all elements take on their "default value". For `int`, this is 0.
 - Arrays do not print nicely, for reasons beyond the scope of HW 0. To print an array, you can call `Arrays.toString(array)`.
 - Arrays do not have a length method. It is an instance variable, so it does not have parentheses.
 - Java does **not** support negative indexing or slicing.
@@ -131,8 +134,8 @@ for (int elem : set) {
 }
 ```
 
-- Java has the `Set` interface. There are two main implementations: `TreeSet`, and `HashSet`. `TreeSet` keeps its elements in “sorted” order, and is fast. In contrast, `HashSet` does not have a defined “order”, but is (usually) really fast.   
-     -  We will formalize these notions of “fast” later on in the course when we learn about asymptotic analysis. 
+- Java has the `Set` interface. There are two main implementations: `TreeSet`, and `HashSet`. `TreeSet` keeps its elements in "sorted" order, and is fast. In contrast, `HashSet` does not have a defined "order", but is (usually) really fast.   
+     -  We will formalize these notions of "fast" later on in the course when we learn about asymptotic analysis. 
 - A `Set` cannot contain duplicate items. If we try to add an item already in the set, nothing happens.
 
 #### Dictionaries / Maps
@@ -166,7 +169,7 @@ for (String key : map.keySet()) {
 
 - Java has the `Map` interface. There are two main implementations: `TreeMap`, and `HashMap`. Similarly to sets, `TreeMap` keeps its keys sorted and is fast; `HashMap` has no defined order and is (usually) really fast.
 - A `Map` cannot contain duplicate keys. If we try to add a key already in the map, the value is overwritten.
-- In the angle brackets, we have the “key type” first, followed by the “value type”.
+- In the angle brackets, we have the "key type" first, followed by the "value type".
 - `Map`s cannot directly be used with the `:` for loop. Typically, we call `keySet` to iterate over a set of the keys, and use those to retrieve the values. One may also iterate over the `entrySet` to get both the keys and values.
 
 #### Classes
@@ -238,7 +241,7 @@ System.out.println("Point 1: ( " + p1.x
 #### Main
 Java programs may also have a special method called `main`. When you execute a program, the `main` method is called. The `main` method runs whatever code is inside, which may call other methods defined within the program.
 
-We define the `main` method with the signature `public static void main(String[] args)`. For now, you can treat `main` as a “play button” for the code you have written.
+We define the `main` method with the signature `public static void main(String[] args)`. For now, you can treat `main` as a "play button" for the code you have written.
 
 To run the code in the previous example, we may create a `main` method in the `Point` class like this:
 **python:**
@@ -281,10 +284,10 @@ public class Point {
 
 Notice that in Java, the `main` method is defined within a class.
 
-If you are coding in IntelliJ, you can actually “play” the `main` method! IntelliJ will display a green play button to the left of the `main` method’s signature. Click it to run the code inside.
+If you are coding in IntelliJ, you can actually "play" the `main` method! IntelliJ will display a green play button to the left of the `main` method's signature. Click it to run the code inside.
 
 ### Programs
-Let’s look at some Java programs that use data structures and classes. Here are some simple ones that you might find yourself referring to if you forget how to do something.
+Let's look at some Java programs that use data structures and classes. Here are some simple ones that you might find yourself referring to if you forget how to do something.
 
 #### Index of Minimum of a List of Numbers
 **python:**
@@ -315,7 +318,7 @@ public static int minIndex(int[] numbers) {
 }
 ```
 ### Exceptions
-Lastly, let’s look at how we can throw exceptions in Java compared to Python with previous example.
+Lastly, let's look at how we can throw exceptions in Java compared to Python with previous example.
 **python:**
 ```python
 def minIndex(numbers):
