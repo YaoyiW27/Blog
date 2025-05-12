@@ -1,11 +1,11 @@
 ---
-title: "First Week as a DevOps Co-op: Onboarding, SSH Keys, and Workflow Setup"
-date: 2024-05-11T20:00:00-07:00
+title: "BC Hydro Week 1: First Week as a DevOps Co-op – Onboarding, SSH Keys, and Workflow Setup"
+date: 2025-05-11T21:43:22-07:00
 draft: false
 tags: ["DevOps", "Internship", "Weekly Reflection"]
 ---
 
-🗓 Week 1: May 5 – May 11, 2024
+🗓 Week 1: May 5 – May 11, 2025
 
 📌 Highlights
 - Attended onboarding sessions and watched internal training videos
