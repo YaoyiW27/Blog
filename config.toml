@@ -202,15 +202,20 @@ uglyURLs = false
         weight = 2
 
     [[menu.main]]
-        name = "Tags"
-        url = "/tags"
+        name = "Work"
+        url = "/work"
         weight = 3
 
     [[menu.main]]
+        name = "Tags"
+        url = "/tags"
         weight = 4
-        identifier = "theme-switcher"
+
     [[menu.main]]
         weight = 5
+        identifier = "theme-switcher"
+    [[menu.main]]
+        weight = 6
         identifier = "lang-switcher"
 
     # [[menu.main]]
