@@ -17,9 +17,9 @@ tags: ["Internship", "DevOps", "Redis", "Kubernetes", "CI/CD", "Testing", "PDF"]
 - Shared progress through **demos, documentation, and walkthroughs**, helping the team adopt new workflows and troubleshoot efficiently.
 
 🧠 Reflections
-This first term was a deep dive into **backend infrastructure and DevOps practices**. I learned how to think differently about data when shifting from relational structures to key-value storage, how to design automation that makes debugging easier, and why security and reliability in build pipelines are critical for long-term sustainability.
+- This first term was a deep dive into **backend infrastructure and DevOps practices**. I learned how to think differently about data when shifting from relational structures to key-value storage, how to design automation that makes debugging easier, and why security and reliability in build pipelines are critical for long-term sustainability.
 
-Beyond the technical side, I’m truly grateful for my manager and teammates. They were always patient and encouraging. Whether it was giving feedback and applause after my demos, or making me feel included during weekly team lunches even when my English was limited and I sometimes said the wrong words. These moments made me feel supported and gave me the confidence to grow not only as a co-op student, but also as someone who belongs to a family-like team.
+- Beyond the technical side, I’m truly grateful for my manager and teammates. They were always patient and encouraging. Whether it was giving feedback and applause after my demos, or making me feel included during weekly team lunches even when my English was limited and I sometimes said the wrong words. These moments made me feel supported and gave me the confidence to grow not only as a co-op student, but also as someone who belongs to a family-like team.
 
 🎯 Looking Ahead
 In the next term, I aim to:
