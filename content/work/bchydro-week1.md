@@ -7,18 +7,12 @@ tags: ["DevOps", "Internship", "Weekly Reflection"]
 
 🗓 Week 1: May 5 – May 11, 2025
 
-📌 Highlights
-- Attended onboarding sessions and watched internal training videos
-- Set up VPN, remote access, and company-issued laptop
-- Joined daily scrums (9:30–10:00 AM) and met the development team
-- Completed SSH key configuration for version control system
-- Got familiar with project management tool for task tracking
+So it's officially been one week since I started my DevOps co-op at BC Hydro. Figured I'd write down what happened before I forget everything.
 
-✅ Projects Started
-- Implementing secure authentication in CI/CD pipelines (debugging ongoing)
-- Set up and tested an external API integration
+The first few days were mostly onboarding stuff — training videos, setting up VPN and remote access, getting my laptop configured. I also joined my first daily scrums (9:30–10:00 AM every morning), which was a nice way to put faces to names and get a sense of what everyone's working on.
 
-🧠 Reflections
-- This week was all about ramping up and adjusting to the hybrid setup. I learned how build pipelines work. I also realized the value of standups in keeping the team in sync—even when remote. The most challenging part was getting used to the enterprise security protocols, but it's been a great learning experience in understanding how large organizations handle security and access control.
+On the project side, I started looking into implementing secure authentication for the CI/CD pipelines. Still debugging some issues there. Also set up and tested an external API integration, which went smoother than I thought it would.
 
-- Looking forward to next week, I hope to complete the authentication changes and dive deeper into the CI/CD documentation. The team has been really supportive, and I'm excited to contribute more to the projects. 
+Honestly, the hardest part this week wasn't the technical work — it was wrapping my head around how enterprise security and access control works here. Coming from smaller environments, there's just a lot more layers to everything. But I guess that's kind of the point of doing a co-op at a place like this: learning how things work at scale.
+
+The team's been really welcoming so far. Looking forward to getting deeper into the CI/CD stuff next week and hopefully closing out the authentication changes.
