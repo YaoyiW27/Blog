@@ -1,5 +1,5 @@
 ---
-title: "Bchydro Term 2: "
+title: "Bchydro Term 2: Wrapping Up 8 Months at BC Hydro"
 date: 2025-12-16T16:51:06-08:00
 draft: false
 tags: ["Co-op", "Kubernetes", "CI/CD", "CronJob", "iOS", "Swift"]
