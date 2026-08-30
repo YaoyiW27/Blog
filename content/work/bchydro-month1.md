@@ -3,7 +3,7 @@ title: "BC Hydro Month 1: A hands-on journey from onboarding to a full Redis mig
 date: 2025-06-08T00:03:09-07:00
 draft: false
 tags: ["Internship", "Monthly Reflection", "Redis", "PostgreSQL", "Distributed Systems"]
----
+--- 
 
 🗓 Week 1: May 5 – June 6, 2025
 
